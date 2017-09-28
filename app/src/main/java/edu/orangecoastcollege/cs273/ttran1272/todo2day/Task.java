@@ -23,8 +23,8 @@ public class Task {
         this(-1, "", false);
     }
 
-    public void setId(int id) {
-        mId = id;
+    public int getId() {
+        return mId;
     }
 
     public String getDescription() {
@@ -43,5 +43,5 @@ public class Task {
         mIsDone = done;
     }
 
-    
+
 }
